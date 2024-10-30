@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/153185691441432238/04485d0723d24a30b4c86025d4a0609f/artifacts
+end_time: 1730276865804
+entry_point_name: ''
+experiment_id: '153185691441432238'
+lifecycle_stage: active
+run_id: 04485d0723d24a30b4c86025d4a0609f
+run_name: grid_search_tuning
+run_uuid: 04485d0723d24a30b4c86025d4a0609f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730276862408
+status: 3
+tags: []
+user_id: Administrator
