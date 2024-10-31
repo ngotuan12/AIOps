@@ -28,7 +28,7 @@ if __name__ == "__main__":
         'class_weight': ['balanced', 'balanced_subsample']
     }
     # grid search
-    tuner = ChurnModelTuner(X_train, X_test, y_train, y_test, param_distributions)
+    tuner = ChurnModelTuner(X_train_scaled, X_test_scaled, y_train, y_test, param_distributions)
     tuner_results = tuner.grid_search_tuning()
     # Ml flow tracking
     flow = ChurnModelTunerMLFlow()

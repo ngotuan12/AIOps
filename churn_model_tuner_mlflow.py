@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 import numpy as np
 import pandas as pd
 from typing import Tuple, Dict, Any
@@ -157,8 +158,8 @@ class ChurnModelTunerMLFlow:
 
         return results
 
-    def create_customer(self,
-                        tenure=12,  # Số tháng sử dụng dịch vụ
+    @staticmethod
+    def create_customer(tenure=12,  # Số tháng sử dụng dịch vụ
                         monthly_charges=80,  # Phí hàng tháng ($)
                         usage_level=500,  # Mức độ sử dụng (0-1000)
                         support_calls=3,  # Số cuộc gọi hỗ trợ (0-10)
