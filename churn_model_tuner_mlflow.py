@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 class ChurnModelTunerMLFlow:
     def __init__(self, experiment_name="Churn Prediction"):
         # Thiết lập MLflow
-        mlflow.set_tracking_uri("http://127.0.0.1:7000")
+        mlflow.set_tracking_uri("http://172.28.160.1:7000")
         mlflow.set_experiment(experiment_name)
         self.experiment_name = experiment_name
         self.model = None
