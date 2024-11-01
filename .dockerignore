@@ -1,4 +1,6 @@
 # Python
+mlartifacts/
+mlruns/
 __pycache__/
 *.py[cod]
 *$py.class
